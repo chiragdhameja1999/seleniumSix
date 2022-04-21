@@ -22,7 +22,7 @@ public class seleniumSixTest {
     }
 
     @Test
-    public void checkgitsearch() {
+    public void checkamazonsearch() {
         chromeDriver.get("https://amazon.in/");
 
         WebElement searchInput = chromeDriver.findElement(By.cssSelector("[name='field-keywords']"));
